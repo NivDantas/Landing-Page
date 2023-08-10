@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que mais gosto em Manaus</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="main-bg">
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1><a href="#intro">O que eu mais gosto em Manaus</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#manaus">intro</a></li>
+                    <li><a href="#grid-manaus">lugares</a></li>
+                    <li><a href="#gallery">fotos</a></li>
+                    <li><a href="#outros">outros</a></li>
+                    <li><a href="#video">vídeo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2> Site projeto Desenvolvimento Web </h2>
+                <p>
+                    Este é um site projeto da disciplina de Engenharia de Software, do estudante Nivaldo Dantas que
+                    relata o que eu mais gosto em Manaus.
+                    Site feito inteiramente em HTML e CSS.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="imagem/college.svg" alt="minions-college">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="manaus" class="white-bg section">
+        <div class="main-content manaus-intro">
+            <h2>Introdução</h2>
+            <p>Neste site vou buscar contar os lugares que eu mais gosto em Manaus, apresentando todos os pontos
+                positivos do local em questão, vou demonstrar porque Manaus é uma cidade bela e bonita, além de também,
+                ser um grande ponto para sua próxima viagem ou estadia.</p>
+            <p>Ressaltando também que todos os lugares escolhidos são de opinião própria, mas Manaus também tem muitos
+                outros lugares populares e bastante conhecidos que podem ser um ponto para a sua visita.</p>
+
+        </div>
+    </section>
+
+    <section id="grid-manaus" class="grid-manaus main-bg section">
+        <div class="main-content grid-manaus-content">
+            <h2>3 lugares para visitar</h2>
+            <div class="grid">
+
+                <article class="manauara-text">
+                    <h3> Shopping Manauara </h3>
+                    <p>O Shopping Manauara é na minha opinião um dos melhores shoppings de Manaus, desde criança o
+                        shopping sempre conquistou pela sua grande variedade de lojas, pela sua beleza no conjunto dos
+                        seus edifícios, como também um lugar bastante espaçoso e confortável para se passar o tempo. Há
+                        também uma parte aberta para a natureza que ressalta bastante o que temos em Manaus.</p>
+                </article>
+
+                <article>
+                    <h3> Ponta Negra </h3>
+                    <p>O bairro Ponta Negra tem vários pontos turísticos e divertidos para se ficar, de exemplos temos a
+                        praia da Ponta Negra, que possui uma grande vista e pertence também a uma parte bastante bonita
+                        da cidade, e também temos o Shopping Ponta Negra, que é também um dos melhores shoppings de
+                        Manaus.</p>
+                </article>
+
+                <article>
+
+                    <h3> Centro </h3>
+                    <p>O bairro Centro é um armazém cultural de Manaus e também da história do Brasil, todo o bairro
+                        possui um aspecto antigo e charmoso para turistas que desejam visitar Manaus, entre eles podemos
+                        citar o Relógio Municipal e principalmente, o Teatro Amazonas que é um grande ponto turístico
+                        brasileiro.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-manaus white-bg section">
+        <div class="main-content grid-manaus-content">
+            <h2>Fotos</h2>
+            <p> Fotos dos lugares mencionados </p>
+            <div class="titulo-galeria">
+                <h3>Manauara</h3>
+                <h3>Ponta Negra</h3>
+                <h3>Centro</h3>
+            </div>
+            <div class="grid">
+
+                <div class="gallery-img">
+                    <img src="./imagem/manauara360x360 1.jpg" alt="Manauara1">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="./imagem/pontanegra360x360 1.jpg" alt="Pontanegra1">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="./imagem/centro360x360 1.jpg" alt="Centro1">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="./imagem/manauara360x360 2.jpg" alt="Manauara2">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="./imagem/pontanegra360x360 2.jpg" alt="Pontanegra2">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="./imagem/centro360x360 2.jpg" alt="Centro2">
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="outros" class="white-bg section">
+        <div class="main-content manaus-intro">
+            <h2>Outros locais</h2>
+            <p>Manaus possui também vários outros locais, é uma cidade muito grande e também uma das mais populosas
+                capitais Brasileiras, abaixo segue uma lista de outros lugares para sua visita.</p>
+
+            <ul style="list-style-type:circle">
+                <li>Amazonas Shopping</li>
+                <li>MUSA - Museu da Amazônia</li>
+                <li>Encontro das águas</li>
+                <li>Palácio Rio Negro</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section id="video" class="main-bg section">
+
+        <div class="tituloSectionVideo">
+            <h3> Vídeo </h3>
+            <h3> Música preferida</h3>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/uv8INC5yOcE?controls=1">
+
+            </iframe>
+
+            <iframe src="https://www.youtube.com/embed/xjolj9p1AN0?controls=1">
+
+            </iframe>
+        </div>
+
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <a rel="nofollow" target="_blank" href="http://www2.ifam.edu.br"><img src="./imagem/ifam.png"
+                alt="ifam"></img></a>
+        <p>Feito por Nivaldo Dantas</p>
+
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
